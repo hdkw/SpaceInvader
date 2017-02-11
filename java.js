@@ -383,7 +383,7 @@ function crashMiss(nameChamp){
 }
 
 function changScore(){
-	document.getElementById("score").innerHTML="Ton score est de : "+score;
+	document.getElementById("score").innerHTML="Your score is : "+score;
 	if (score<2000) {
 		document.getElementById("score").style.color="red";
 	}
@@ -398,7 +398,7 @@ function changScore(){
 }
 
 function changVie(){
-	document.getElementById("vie").innerHTML="Vie : "+Life;
+	document.getElementById("vie").innerHTML="Life : "+Life;
 }
 
 function testCollision(){
